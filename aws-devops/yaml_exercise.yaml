@@ -1,0 +1,54 @@
+---
+# I'm a aws_batch_compute_environment
+#I'm a comment as well 
+#here is one more comment 
+
+# list of strings  
+- Apple 
+- Orange
+- Mango 
+
+---
+# single object An employee records example
+martin:
+  name: Martin Snow
+  job: Developer
+  skill: Senior
+  age: 35
+
+---
+
+# Employee list with multiple objects 
+- martin:
+    name: Martin Snow
+    job: Developer
+    skill: 
+      - kotlin
+      - javascript 
+    age: 35
+- john:
+    name: John Doe
+    job: devops
+    skill: 
+      - python
+      - java
+      - html 
+      - css 
+  age: 25
+
+---
+# Another Object format 
+martin: {name: MArtin Snowsky, job: Developer, skill: ['python', 'java'], age: 37}
+
+---
+# multiple lines values  use pipe | or > same as in education section below
+name: Alexander Dumas
+job: Developer
+Skill: 
+  - javascript
+  - html 
+  - typescript 
+# education: |
+education: >
+  BSc Computer Science
+  MSc Business Administration

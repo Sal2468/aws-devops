@@ -1,0 +1,47 @@
+{
+    "stores":[
+        {"name":"Amazon",
+        "url":"https://www.amazon.com",
+        "categories":[
+            "science Fiction", "Classisc","Computer Science"
+        ],
+        "category_counts":[
+            155,200,122
+        ],
+        "category_images":[
+            "","",""
+        ],
+        "books":[
+            [
+                {
+                    "title": "1984"
+                    "author": "George Orwell",
+                    "coverPhotoURL": "https://images-na.ssl-images-amazon.com/images/I/71-qZ2Z754L.jpg",
+                    "genre": "Political Fiction",
+                    "id": "-M5BSK0Ohmzjf_lIFWm5",
+                    "isbnNumber": 542112,
+                    "language": "English",
+                    "price": 545,
+                    "url":""
+                   
+                },
+                {
+                    "title": "Les Misérables",
+                    "author": "Victor Hugo",
+                    "coverPhotoURL": "https://m.media-amazon.com/images/I/51JEItnoKFL.jpg",
+                    "genre": "Historical Fiction",
+                    "id": "-M5BUPCiFkiYv7hKQEM1",
+                    "isbnNumber": 52412521,
+                    "language": "French",
+                    "price": 2521,
+                    "url": ""
+                }    
+            ]
+
+        ]
+        }
+
+    ]
+}
+
+
